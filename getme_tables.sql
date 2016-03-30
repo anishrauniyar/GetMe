@@ -5,6 +5,7 @@ CREATE TABLE userTable (
 	UserName VARCHAR(50),
 	Email VARCHAR(200),
 	Password VARCHAR(50),
+	Role VARCHAR(50),
 	Date DATE,
 	PRIMARY KEY(UID)
 );
@@ -25,6 +26,3 @@ CREATE TABLE locationInfoTable (
 	Description VARCHAR(600),
 	FOREIGN KEY(SRID) REFERENCES senderReceiverTable(SRID)
 );
-
-
-
