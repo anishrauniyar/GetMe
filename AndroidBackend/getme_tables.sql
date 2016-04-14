@@ -14,6 +14,7 @@ CREATE TABLE senderReceiverTable (
 	SRID INT(10) NOT NULL AUTO_INCREMENT,
 	SenderUsername VARCHAR(50),
 	RecieverUSername VARCHAR(50),
+	isSave VARCHAR(1),
 	Date DATE,
 	PRIMARY KEY(SRID)
 );
