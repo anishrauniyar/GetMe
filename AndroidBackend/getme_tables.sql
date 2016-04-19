@@ -27,3 +27,11 @@ CREATE TABLE locationInfoTable (
 	Description VARCHAR(600),
 	FOREIGN KEY(SRID) REFERENCES senderReceiverTable(SRID)
 );
+
+/*
+Map
+http://code.tutsplus.com/tutorials/getting-started-with-google-maps-for-android-basics--cms-24635
+
+Path
+http://stackoverflow.com/questions/14710744/how-to-draw-road-directions-between-two-geocodes-in-android-google-map-v2
+*/
