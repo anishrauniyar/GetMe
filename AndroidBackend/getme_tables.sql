@@ -29,9 +29,14 @@ CREATE TABLE locationInfoTable (
 );
 
 /*
+
 Map
 http://code.tutsplus.com/tutorials/getting-started-with-google-maps-for-android-basics--cms-24635
 
 Path
 http://stackoverflow.com/questions/14710744/how-to-draw-road-directions-between-two-geocodes-in-android-google-map-v2
+
+API Key
+https://console.developers.google.com/apis/credentials?project=getme-1238
+
 */
